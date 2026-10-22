@@ -1,0 +1,6 @@
+{
+  "name": "GPRN / NSCN Portal",
+  "description": "Official institutional portal, historical archives, peace chronicles, and governance documentation of the Government of the People's Republic of Nagaland.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

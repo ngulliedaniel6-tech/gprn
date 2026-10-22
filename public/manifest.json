@@ -1,0 +1,17 @@
+{
+  "name": "GPRN / NSCN Official State Portal",
+  "short_name": "GPRN Portal",
+  "description": "Government of the People's Republic of Nagaland official portal, historical charters, and governance repository.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07110c",
+  "theme_color": "#091310",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

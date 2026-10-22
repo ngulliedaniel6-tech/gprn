@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0c1512;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+}
+
+.font-heading {
+  font-family: 'Cinzel', serif;
+}
+
+.font-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Naga Traditional Geometric Motif Border */
+.naga-border-pattern {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #991b1b 0,
+    #991b1b 10px,
+    #0f172a 10px,
+    #0f172a 20px,
+    #d97706 20px,
+    #d97706 25px,
+    #0f172a 25px,
+    #0f172a 35px
+  );
+  height: 6px;
+  width: 100%;
+}
+
+.naga-lozenge-pattern {
+  background-color: #111a16;
+  background-image: radial-gradient(#d97706 0.75px, transparent 0.75px), radial-gradient(#991b1b 0.75px, #111a16 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #09100d;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b6353;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print, header, footer, nav {
+    display: none !important;
+  }
+}
